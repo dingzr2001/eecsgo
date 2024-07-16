@@ -1,24 +1,6 @@
-# frontend
+# 欢迎使用EECSGO
 
-## Project setup
-```
-npm install
-```
+一个留学项目的信息集成网站，收集了EE、CS相关领域的热门项目的基本信息，以及大家分享的录取dp
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+开源平台，仍在开发中，欢迎各位小伙伴参与贡献
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -278,7 +278,7 @@
 
                 <el-card>
                   <!-- 这里没选用element的其他组件包括el-descriptions是因为实在是太难调了，宽度老是自己乱动还没办法调成想要的宽度，破防了 -->
-                  <el-row v-for="dp in dps" :key="dp.id">
+                  <el-row v-for="dp in dps" :key="dp.id" style="margin-bottom: 10px;">
                     <el-col :span="24" style="text-align: left;margin-bottom: 10px; font-size: 14px;">
                       <el-col :span="4">分享者：{{dp.creatorUsername}}</el-col>
                       <el-col :span="10">申请方向(Track)：{{dp.track}}</el-col>
@@ -325,6 +325,7 @@
                     <el-col class="dp-form-content" :span="8">{{dp.bg.exchange}}</el-col>
                     <el-col class="dp-form-content" :span="8">{{dp.bg.project}}</el-col>
                   </el-row>
+                  
                   
                   <el-pagination
                     background

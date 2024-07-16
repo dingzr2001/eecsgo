@@ -180,6 +180,7 @@ export default {
       this.auditDialogVisible = true;
       this.currentProgram = selectedProgram;
     },
+    //提交节流，每500毫秒处理一次
     passProgramThrottle: throttle(function(){
       this.passProgram()
     }, 500),
